@@ -1,0 +1,56 @@
+.navbar-codhab{
+  background-color: #fff;
+  margin-bottom: 0;
+}
+.navbar-superior{
+  height: 35px;
+  background-color: #012942;
+}
+.navbar-superior li{
+  float: left;
+  color: #fff;
+  list-style: none;
+  margin-right: 30px;
+  margin-top:8px;
+
+}
+
+.sliderlindo {
+  height: 440px;
+  background-color: #ccc;
+
+}
+
+.sliderinferior {
+  height: 46px;
+  background-color: #595151;
+}
+.thumbnail {
+  background-color: #fff;
+}
+.caption_notice{
+  border-bottom: 1px dotted #cdcdcd;
+    padding-top: 13px!important;
+    height: 46px;
+}
+.link_caption {
+  font-family:Arial;
+  color:#012942;
+  text-transform:uppercase;
+  font-size: 12px;
+  font-weight: 600;
+  text-decoration: none;
+}
+.title_notice {
+  font-family: Arial;
+  color: #004A77;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 5px;
+  text-align: center;
+  width: 100%;
+
+}
+body{
+  background-color: #F6F7F7;
+}
