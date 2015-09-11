@@ -34,6 +34,7 @@
     height: 46px;
 }
 .link_caption {
+  margin-left: 10px;
   font-family:Arial;
   color:#012942;
   text-transform:uppercase;
@@ -46,9 +47,38 @@
   color: #004A77;
   font-weight: 600;
   line-height: 1.2;
-  margin-bottom: 5px;
+  margin-bottom: 30px;
+  margin-top: 30px;
   text-align: center;
   width: 100%;
+
+}
+.link_caption_text {
+padding: 0px 15px 15px 15px;
+}
+.results{
+  background-color: #fff;
+  height: 790px;
+  margin-top: 30px;
+  overflow: hidden;
+}
+.title_video {
+  font-family: Arial;
+  color: #004A77;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  text-align: center;
+  width: 100%;
+}
+.video_codhab_foco{
+  height: 540px;
+  background-color: #ccc;
+}
+.footer{
+  height: 316px;
+}
 
 }
 body{
