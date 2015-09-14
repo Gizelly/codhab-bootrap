@@ -57,10 +57,13 @@
 padding: 0px 15px 15px 15px;
 }
 .results{
-  background-color: #fff;
+  background-image: url('../img/estadio.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center top;
+  background-attachment: fixed;
+  width: 100%;
   height: 790px;
-  margin-top: 30px;
-  overflow: hidden;
 }
 .title_video {
   font-family: Arial;
@@ -76,9 +79,41 @@ padding: 0px 15px 15px 15px;
   height: 540px;
   background-color: #ccc;
 }
-.footer{
-  height: 316px;
+.block_footer{
+  background-color: #fff;
+  text-align: center;
+  height: 290px;
+  margin-top: 80px;
 }
+.logo_footer {
+  text-align: center;
+  padding-top: 110px;
+}
+  .title_notice_footer {
+    font-family: Arial;
+    color:#292728;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 30px 6px;
+    border-bottom: 1px dotted #cdcdcd;
+  }
+  .link_notices_footer {
+    font-family: arial
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #333;
+    font-size: 13px;
+  }
+.title_contact_footer {
+  font-family: Arial;
+  color:#292728;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 5px 30px 6px;
+  border-bottom: 1px dotted #cdcdcd;
+}
+
 
 }
 body{
