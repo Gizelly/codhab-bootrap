@@ -1,3 +1,7 @@
+p a:hover{
+  color: #0297C2;
+    text-decoration: underline;
+}
 .navbar-codhab{
   background-color: #fff;
   margin-bottom: 0;
@@ -80,14 +84,21 @@ padding: 0px 15px 15px 15px;
   background-color: #ccc;
 }
 .block_footer{
-  background-color: #fff;
-  text-align: center;
   height: 290px;
   margin-top: 80px;
 }
 .logo_footer {
   text-align: center;
-  padding-top: 110px;
+}
+.logo_footer img{
+padding-top: 110px;
+}
+.box_footer{
+    width: 300px;
+    
+
+
+
 }
   .title_notice_footer {
     font-family: Arial;
@@ -96,15 +107,28 @@ padding: 0px 15px 15px 15px;
     font-weight: bold;
     padding: 5px 30px 6px;
     border-bottom: 1px dotted #cdcdcd;
+    text-align: center;
   }
   .link_notices_footer {
-    font-family: arial
+    font-family: arial;
     cursor: pointer;
     text-transform: uppercase;
     font-weight: bold;
     color: #333;
-    font-size: 13px;
+    font-size: 11px;
+    text-align: left;
+
   }
+
+.date_link_notices{
+  font-family: arial;
+  margin-bottom: 5px!important;
+  font-size: 11px;
+  text-align: left;
+
+
+}
+
 .title_contact_footer {
   font-family: Arial;
   color:#292728;
@@ -112,10 +136,9 @@ padding: 0px 15px 15px 15px;
   font-weight: bold;
   padding: 5px 30px 6px;
   border-bottom: 1px dotted #cdcdcd;
+  text-align: center;
 }
 
-
-}
 body{
   background-color: #F6F7F7;
 }
