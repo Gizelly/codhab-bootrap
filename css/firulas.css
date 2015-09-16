@@ -91,21 +91,18 @@ padding: 0px 15px 15px 15px;
   text-align: center;
 }
 .logo_footer img{
-padding-top: 110px;
+padding-top: 150px;
 }
 .box_footer{
-    width: 300px;
-    
-
-
-
+    width:300px;
+    padding: 5px; 
 }
   .title_notice_footer {
     font-family: Arial;
     color:#292728;
     font-size: 20px;
     font-weight: bold;
-    padding: 5px 30px 6px;
+    padding: 5px 30px 15px;
     border-bottom: 1px dotted #cdcdcd;
     text-align: center;
   }
@@ -134,10 +131,21 @@ padding-top: 110px;
   color:#292728;
   font-size: 20px;
   font-weight: bold;
-  padding: 5px 30px 6px;
+  padding: 5px 30px 15px;
   border-bottom: 1px dotted #cdcdcd;
   text-align: center;
 }
+.contact_box{
+  padding:5px;
+
+}
+.contact {
+  font-family: arial;
+  cursor: pointer;
+  color: #333;
+  font-size: 12px;
+  text-align: center;
+
 
 body{
   background-color: #F6F7F7;
