@@ -6,9 +6,91 @@ p a:hover{
   background-color: #fff;
   margin-bottom: 0;
 }
+.logo_nav{
+text-align: left;
+
+}
+.logo_nav img{
+  width: 175px;
+
+}
+.navbar-brand{
+  height: 75px;
+  padding-top: 0px;
+}
+.navbar-toggle{
+  margin-top: 25px;
+}
+/*cores do menu*/
+.navbar-default .navbar-nav>.open.habitacao>a, .navbar-default .navbar-nav>.open.habitacao>a:focus, .navbar-default .navbar-nav>.open.habitacao>a:hover{
+background-color:#289728;
+color: #fff;
+}
+#habitacao{
+  background-color:#289728;
+  color: #fff;
+  width: 500px;
+}
+.menu-insider-li{
+  float: left;
+  display: block;
+}
+.dropdown-menu{
+  border: none;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+.navbar-default .navbar-nav>.open.Regularizacao>a, .navbar-default .navbar-nav>.open.Regularizacao>a:focus, .navbar-default .navbar-nav>.open.Regularizacao>
+a:hover{
+background-color:#feaa15;
+color: #fff;
+}
+#Regularizacao{
+  background-color:#feaa15;
+  color: #fff;
+}
+.navbar-default .navbar-nav>.open.Entidades>a, .navbar-default .navbar-nav>.open.Entidades>a:focus, .navbar-default .navbar-nav>.open.Entidades>
+a:hover{
+background-color:#f4400a;
+color: #fff;
+}
+#Entidades{
+  background-color:#f4400a;
+  color: #fff;
+}
+.navbar-default .navbar-nav>.open.servicos>a, .navbar-default .navbar-nav>.open.servicos>a:focus, .navbar-default .navbar-nav>.open.servicos>
+a:hover{
+background-color:#147EA1;
+color: #fff;
+}
+#servicos{
+  background-color:#147EA1;
+  color: #fff;
+}
+.navbar-default .navbar-nav>.open.editais>a, .navbar-default .navbar-nav>.open.editais>a:focus, .navbar-default .navbar-nav>.open.editais>
+a:hover{
+background-color:#7c3961;
+color: #fff;
+}
+#editais{
+  background-color:#7c3961;
+  color: #fff;
+}
+.navbar-default .navbar-nav>.open.concursos>a, .navbar-default .navbar-nav>.open.concursos>a:focus, .navbar-default .navbar-nav>.open.concursos>
+a:hover{
+background-color:#83847b;
+color: #fff;
+}
+#concursos{
+  background-color:#83847b;
+  color: #fff;
+}
+  /*fim das cores do menu*/
 .navbar-superior{
   height: 35px;
   background-color: #012942;
+  font-size: 13px;
+  font-weight: normal;
 }
 .navbar-superior li{
   float: left;
@@ -17,6 +99,12 @@ p a:hover{
   margin-right: 30px;
   margin-top:8px;
 
+}
+.navbar-nav>li>a{
+  padding-top: 25px!important;
+}
+.item_menu{
+  height: 75px;
 }
 
 .sliderlindo {
@@ -107,7 +195,8 @@ padding: 0px 15px 15px 15px;
   text-align: center;
 }
 .logo_footer img{
-padding-top: 150px;
+padding-top: 80px;
+width:80%;
 }
 .box_footer{
     width:300px;
