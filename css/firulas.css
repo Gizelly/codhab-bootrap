@@ -17,19 +17,72 @@ text-align: left;
 .navbar-brand{
   height: 75px;
   padding-top: 0px;
+  font-family: roboto;
 }
+
 .navbar-toggle{
   margin-top: 25px;
 }
 /*cores do menu*/
+
+#link_habitacao{
+  color: #289728;
+}
+#link_regularizacao{
+  color: #feaa15;
+}
+#link_entidades{
+  color: #f4400a;
+}
+#link_servicos{
+  color: #147EA1;
+}
+#link_editais{
+  color: #7c3961
+}
+
+#link_concursos{
+  color: #83847b;
+}
+.menu-insider-li{
+  display: block;
+  font-size:14px;
+}
+.first {
+  display: block;
+  vertical-align: top;
+  margin: 20px;
+  font-size: 13px;
+  border-bottom: 1px dotted rgba(255, 255, 255, 0.4);
+  padding-bottom: 5px;
+  margin-bottom: 7px;
+  line-height: 1.2;
+  margin-left: 0;
+}
+
+.navbar-default .navbar-nav>li>a{
+  font-weight: 600;
+  font-size: 17px;
+  }
+
 .navbar-default .navbar-nav>.open.habitacao>a, .navbar-default .navbar-nav>.open.habitacao>a:focus, .navbar-default .navbar-nav>.open.habitacao>a:hover{
 background-color:#289728;
 color: #fff;
+font-weight: 600;
+}
+.habitacao:hover{
+  background-color: #289728;
+}
+.item_menu:hover>a{
+  color: #fff!important;
+}
+.item_menu:hover>ul{
+  display: block!important;
 }
 #habitacao{
   background-color:#289728;
   color: #fff;
-  width: 500px;
+  width: 375px;
 }
 .menu-insider-li{
   float: left;
@@ -40,21 +93,30 @@ color: #fff;
   box-shadow: none;
   -webkit-box-shadow: none;
 }
-.navbar-default .navbar-nav>.open.Regularizacao>a, .navbar-default .navbar-nav>.open.Regularizacao>a:focus, .navbar-default .navbar-nav>.open.Regularizacao>
+
+
+.navbar-default .navbar-nav>.open.regularizacao>a, .navbar-default .navbar-nav>.open.regularizacao>a:focus, .navbar-default .navbar-nav>.open.regularizacao>
 a:hover{
 background-color:#feaa15;
 color: #fff;
 }
-#Regularizacao{
+.regularizacao:hover{
+  background-color: #feaa15;
+}
+
+#regularizacao{
   background-color:#feaa15;
   color: #fff;
 }
-.navbar-default .navbar-nav>.open.Entidades>a, .navbar-default .navbar-nav>.open.Entidades>a:focus, .navbar-default .navbar-nav>.open.Entidades>
+.navbar-default .navbar-nav>.open.entidades>a, .navbar-default .navbar-nav>.open.entidades>a:focus, .navbar-default .navbar-nav>.open.entidades>
 a:hover{
 background-color:#f4400a;
 color: #fff;
 }
-#Entidades{
+.entidades:hover{
+  background-color: #f4400a;
+}
+#entidades{
   background-color:#f4400a;
   color: #fff;
 }
@@ -62,6 +124,9 @@ color: #fff;
 a:hover{
 background-color:#147EA1;
 color: #fff;
+}
+.servicos:hover{
+  background-color: #147EA1;
 }
 #servicos{
   background-color:#147EA1;
@@ -72,6 +137,9 @@ a:hover{
 background-color:#7c3961;
 color: #fff;
 }
+.editais:hover{
+  background-color: #7c3961;
+}
 #editais{
   background-color:#7c3961;
   color: #fff;
@@ -81,10 +149,14 @@ a:hover{
 background-color:#83847b;
 color: #fff;
 }
+.concursos:hover{
+  background-color: #83847b;
+}
 #concursos{
   background-color:#83847b;
   color: #fff;
 }
+
   /*fim das cores do menu*/
 .navbar-superior{
   height: 35px;
