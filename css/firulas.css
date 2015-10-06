@@ -48,6 +48,12 @@ text-align: left;
   display: block;
   font-size:14px;
 }
+.linkd{
+  font-size: 14px!important;
+  height: 38px;
+  line-height: 20px;
+
+}
 .first {
   display: block;
   vertical-align: top;
@@ -68,7 +74,6 @@ text-align: left;
 .navbar-default .navbar-nav>.open.habitacao>a, .navbar-default .navbar-nav>.open.habitacao>a:focus, .navbar-default .navbar-nav>.open.habitacao>a:hover{
 background-color:#289728;
 color: #fff;
-font-weight: 600;
 }
 .habitacao:hover{
   background-color: #289728;
@@ -82,7 +87,7 @@ font-weight: 600;
 #habitacao{
   background-color:#289728;
   color: #fff;
-  width: 375px;
+  width: 430px;
 }
 .menu-insider-li{
   float: left;
@@ -107,7 +112,18 @@ color: #fff;
 #regularizacao{
   background-color:#feaa15;
   color: #fff;
+  width: 430px;
 }
+.menu-insider-li{
+  float: left;
+  display:block;
+}
+.dropdown-menu{
+  border: none;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
 .navbar-default .navbar-nav>.open.entidades>a, .navbar-default .navbar-nav>.open.entidades>a:focus, .navbar-default .navbar-nav>.open.entidades>
 a:hover{
 background-color:#f4400a;
@@ -119,7 +135,18 @@ color: #fff;
 #entidades{
   background-color:#f4400a;
   color: #fff;
+  width: 430px;
 }
+.menu-insider-li{
+  float: left;
+  display:block;
+}
+.dropdown-menu{
+  border: none;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
 .navbar-default .navbar-nav>.open.servicos>a, .navbar-default .navbar-nav>.open.servicos>a:focus, .navbar-default .navbar-nav>.open.servicos>
 a:hover{
 background-color:#147EA1;
@@ -131,6 +158,7 @@ color: #fff;
 #servicos{
   background-color:#147EA1;
   color: #fff;
+  width: 375px;
 }
 .navbar-default .navbar-nav>.open.editais>a, .navbar-default .navbar-nav>.open.editais>a:focus, .navbar-default .navbar-nav>.open.editais>
 a:hover{
@@ -143,6 +171,7 @@ color: #fff;
 #editais{
   background-color:#7c3961;
   color: #fff;
+  width: 375px;
 }
 .navbar-default .navbar-nav>.open.concursos>a, .navbar-default .navbar-nav>.open.concursos>a:focus, .navbar-default .navbar-nav>.open.concursos>
 a:hover{
@@ -155,6 +184,7 @@ color: #fff;
 #concursos{
   background-color:#83847b;
   color: #fff;
+  width: 375px;
 }
 
   /*fim das cores do menu*/
