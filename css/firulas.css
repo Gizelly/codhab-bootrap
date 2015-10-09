@@ -19,10 +19,191 @@ text-align: left;
   padding-top: 0px;
   font-family: roboto;
 }
-
 .navbar-toggle{
   margin-top: 25px;
 }
+.submenu_title{
+  display: block;
+  margin-left: 39px;
+  margin-bottom: 20px;
+  line-height: 40px;
+  font-weight: bold;
+}
+/** menu superior*/
+.item-menu-top:hover>ul{
+  display: block!important;
+    cursor: pointer;
+}
+.dropdown-menu-top{
+  position: absolute;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
+.item-submenu-top{
+  width: 201px;
+  padding-right: 0!important;
+}
+.submenu_title_top{
+  display: block;
+  margin-left: 35px;
+  line-height: 40px;
+  font-weight: bold;
+  color: #303236 !important;
+  padding: 8px 0px 15px 0;
+  font-size: 16px;
+  margin-bottom: -10px;
+}
+.link_submenu_top{
+
+  vertical-align: top;
+  margin: 20px;
+  font-size: 13px;
+  /*border-bottom: 1px dotted rgba(15, 15, 15, 0.8);*/
+  padding-bottom: 5px;
+  margin-bottom: 7px;
+  line-height: 1.2;
+  margin-left: 0;
+  color: #303236!important;
+  margin-top: 0px;
+}
+.submenu_title_top_fone{
+  text-align: left;
+  font-weight: bold;
+  font-size: 16px;
+}
+.dropdown-menu-top ul li{
+  color: #000!important;
+
+}
+
+/* page single*/
+
+
+.box {
+margin-top: 0;
+padding-top: 40px;
+}
+
+.title_seila{
+  text-align: left;
+  display: block;
+  color: #333;
+  font-size: 17px;
+  padding: 25px;
+  margin: 0;
+  color: #289728;
+  font-weight: 600;
+}
+.link_title_seila{
+  color: #333;
+  padding: 10px;
+}
+.post_seila{
+  font-size: 15px;
+  padding: 10px;
+}
+
+.box_internal_notices{
+  border-radius: 4px;
+  background: #fff;
+  padding-bottom: 20px;
+}
+.title_box_internal_notices{
+    margin: 0 0 10px 0;
+
+
+}
+.search_box_internal_notices{
+  border-radius: 4px;
+  box-shadow: 0 0 3px #C9CACA;
+  padding: 6px;
+}
+.post_notices{
+  color: #989898;
+}
+
+
+.box_internal{
+border-radius: 4px;
+box-shadow: 0 0 3px #C9CACA;
+background: #fff;
+padding-bottom: 20px;
+}
+.post{
+  padding: 0 2px 0;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  overflow: hidden;
+}
+.post_title{
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+.post_meta{
+  border-bottom: 1px solid #eee;
+  text-align: right;
+  padding: 10px 10px 4px;
+}
+.imagem_post{max-height: 300px;overflow: hidden;}
+.imagem_post img{
+  width: 100%;
+}
+.post_semnome{
+  padding: 0 2px 0;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+
+}
+.post_date {
+  padding: 0 35px 0 0;
+  line-height: 35px;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 600;
+  display: inline-block;
+  margin-right: 23px;
+  color: #8397a3;
+  text-decoration: none;
+}
+.button_back {
+  color: #fff;
+font-weight: bold;
+text-transform: uppercase;
+font-size: 13px;
+text-decoration: none;
+border-radius: 2px;
+padding: 12px 20px;
+display: inline-block;
+background: #004a77;
+float: right;
+}
+.button_back:hover{
+  color: white;
+  text-decoration: none;
+}
+.content_post{
+  padding:20px;
+}
+/*fim da pagina single*/
+
+
 /*cores do menu*/
 
 #link_habitacao{
@@ -48,13 +229,15 @@ text-align: left;
   display: block;
   font-size:14px;
 }
-.linkd{
-  font-size: 14px!important;
-  height: 38px;
-  line-height: 20px;
-
+.submenu_title{
+  display: block;
+  margin-left: 39px;
+  margin-bottom: 20px;
+  line-height: 40px;
+  font-weight: bold;
 }
-.first {
+
+.link_submenu {
   display: block;
   vertical-align: top;
   margin: 20px;
@@ -78,25 +261,28 @@ color: #fff;
 .habitacao:hover{
   background-color: #289728;
 }
-.item_menu:hover>a{
-  color: #fff!important;
-}
+
 .item_menu:hover>ul{
   display: block!important;
 }
+.link_submenu a, .menu-insider-li span, .item_menu:hover>a {
+  color:#fff!important;
+}
+
 #habitacao{
   background-color:#289728;
-  color: #fff;
   width: 430px;
 }
+
 .menu-insider-li{
   float: left;
   display: block;
 }
-.dropdown-menu{
+.dropdown-menu-mod{
   border: none;
   box-shadow: none;
   -webkit-box-shadow: none;
+  padding: 20px 0;
 }
 
 
@@ -111,14 +297,13 @@ color: #fff;
 
 #regularizacao{
   background-color:#feaa15;
-  color: #fff;
   width: 430px;
 }
 .menu-insider-li{
   float: left;
   display:block;
 }
-.dropdown-menu{
+.dropdown-menu-mod{
   border: none;
   box-shadow: none;
   -webkit-box-shadow: none;
@@ -134,14 +319,13 @@ color: #fff;
 }
 #entidades{
   background-color:#f4400a;
-  color: #fff;
   width: 430px;
 }
 .menu-insider-li{
   float: left;
   display:block;
 }
-.dropdown-menu{
+.dropdown-menu-mod{
   border: none;
   box-shadow: none;
   -webkit-box-shadow: none;
@@ -150,15 +334,13 @@ color: #fff;
 .navbar-default .navbar-nav>.open.servicos>a, .navbar-default .navbar-nav>.open.servicos>a:focus, .navbar-default .navbar-nav>.open.servicos>
 a:hover{
 background-color:#147EA1;
-color: #fff;
 }
 .servicos:hover{
   background-color: #147EA1;
 }
 #servicos{
   background-color:#147EA1;
-  color: #fff;
-  width: 375px;
+  width: 430px;
 }
 .navbar-default .navbar-nav>.open.editais>a, .navbar-default .navbar-nav>.open.editais>a:focus, .navbar-default .navbar-nav>.open.editais>
 a:hover{
@@ -170,8 +352,7 @@ color: #fff;
 }
 #editais{
   background-color:#7c3961;
-  color: #fff;
-  width: 375px;
+  width:430px;
 }
 .navbar-default .navbar-nav>.open.concursos>a, .navbar-default .navbar-nav>.open.concursos>a:focus, .navbar-default .navbar-nav>.open.concursos>
 a:hover{
@@ -183,8 +364,7 @@ color: #fff;
 }
 #concursos{
   background-color:#83847b;
-  color: #fff;
-  width: 375px;
+  width: 430px;
 }
 
   /*fim das cores do menu*/
@@ -198,9 +378,7 @@ color: #fff;
   float: left;
   color: #fff;
   list-style: none;
-  margin-right: 30px;
-  margin-top:8px;
-
+  padding: 8px 30px 8px 0px;
 }
 .navbar-nav>li>a{
   padding-top: 25px!important;
@@ -358,10 +536,18 @@ width:80%;
   font-family: arial;
   cursor: pointer;
   color: #333;
-  font-size: 12px;
+  font-size: 13px;
   text-align: center;
-
-
+}
+.btn-primary-mod {
+    color: #fff;
+    background-color: #012942;
+    border-color: #012942;
+}
+.btn-primary-mod:hover{
+  color: white;
+  text-decoration: none;
+}
 body{
   background-color: #f6f7f7;
 }
